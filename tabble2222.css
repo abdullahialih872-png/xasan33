@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Times New Roman", serif;
+    background:#fff;
+}
+
+.container{
+    width:820px;
+    margin:20px auto;
+    border:6px solid green;
+    padding:5px;
+}
+
+header{
+    background:#e8b7d8;
+    border:3px solid yellow;
+    height:110px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+header h1{
+    font-size:32px;
+}
+
+.main{
+    display:flex;
+    margin-top:5px;
+}
+
+.menu{
+    width:110px;
+    border:2px solid #444;
+    padding:10px 5px;
+    
+}
+a:hover{background-color: red ;}
+a:active{background-color: blue;}
+
+.menu a{
+    color:rgb(255, 170, 0);
+    text-decoration:underline;
+    margin-right:5px;
+}
+
+.content{
+    width:390px;
+    border:2px solid rgb(0, 255, 119);
+    padding:0;
+}
+
+
+.image-box{
+    width:190px;
+    height:160px;
+    background:#b7d2e8;
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:70px;
+    color:white;
+}
+    
+    
+
+
+
+.content p{
+    padding:15px;
+    font-size:18px;
+    line-height:1.4;
+}
+
+.table-box{
+    width:290px;
+    border:2px solid brown;
+    padding:2px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,
+td{
+    border:1px solid #999;
+    padding:6px;
+    text-align:left;
+}
+
+footer{
+    margin-top:8px;
+    border:3px solid orange;
+    height:65px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+}
